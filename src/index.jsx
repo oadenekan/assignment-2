@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 import ErrorBoundary from './ErrorBoundary';
-import Counter from './Component/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +11,6 @@ root.render(
     <ErrorBoundary>
       <BrowserRouter>
         <App />
-        <Counter />
       </BrowserRouter>
     </ErrorBoundary>
   </React.StrictMode>

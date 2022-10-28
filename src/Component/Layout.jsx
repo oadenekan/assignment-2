@@ -12,7 +12,8 @@ const Layout = () => {
     <nav>   
       <CustomNavLink to="/" end> Home </CustomNavLink>| {' '}
       <CustomNavLink to="about"> About </CustomNavLink>| {' '}
-      <CustomNavLink to="contact"> Contact </CustomNavLink>
+      <CustomNavLink to="contact"> Contact </CustomNavLink>| {' '}
+      <CustomNavLink to="users"> Users </CustomNavLink>
     </nav>
   )
 }
